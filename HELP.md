@@ -12,8 +12,8 @@ This will execute the test file found in the `test` subfolder -- a file ending i
 
 Documentation:
 
-* [`mix test` - Elixir's test execution tool](https://hexdocs.pm/mix/Mix.Tasks.Test.html)
-* [`ExUnit` - Elixir's unit test library](https://hexdocs.pm/ex_unit/ExUnit.html)
+- [`mix test` - Elixir's test execution tool](https://hexdocs.pm/mix/Mix.Tasks.Test.html)
+- [`ExUnit` - Elixir's unit test library](https://hexdocs.pm/ex_unit/ExUnit.html)
 
 ## Pending tests
 
@@ -44,12 +44,12 @@ Or, you can enable all the tests by commenting out the `ExUnit.configure` line i
 
 ## Useful `mix test` options
 
-* `test/<FILE>.exs:LINENUM` - runs only a single test, the test from `<FILE>.exs` whose definition is on line `LINENUM`
-* `--failed` - runs only tests that failed the last time they ran
-* `--max-failures` - the suite stops evaluating tests when this number of test failures
-is reached
-* `--seed 0` - disables randomization so the tests in a single file will always be ran
-in the same order they were defined in
+- `test/<FILE>.exs:LINENUM` - runs only a single test, the test from `<FILE>.exs` whose definition is on line `LINENUM`
+- `--failed` - runs only tests that failed the last time they ran
+- `--max-failures` - the suite stops evaluating tests when this number of test failures
+  is reached
+- `--seed 0` - disables randomization so the tests in a single file will always be ran
+  in the same order they were defined in
 
 ## Submitting your solution
 
